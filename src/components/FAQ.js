@@ -10,7 +10,7 @@ const FAQ = () => {
 
       <div className="mt-5">
         <div className="flex   flex-col   w-full  justify-between font-semibold md:w-[60%] rounded-md gap-5 text-[16px] items-center ">
-          <div className="flex-col w-full flex px-5 p-3  rounded-md border border-[#205ace] gap-2">
+          <div className="flex-col  transition-all delay-500 ease-linear w-full flex px-5 p-3  rounded-md border border-[#205ace] gap-2">
             <div className="justify-between flex items-center w-full">
               <p className="text-black">
                 Can education flashcards be used for all age groups?
@@ -24,7 +24,7 @@ const FAQ = () => {
                     setfirst(true);
                   }
                 }}
-                className="uil uil-angle-down text-3xl text-[#06286E]  "
+                className={`uil  ${first? "uil-angle-up":"uil-angle-down"} uil-angle-down text-3xl text-[#06286E]`}
               />
             </div>
             <div
@@ -39,10 +39,10 @@ const FAQ = () => {
             </div>
           </div>
 
-          <div className="flex-col w-full flex px-5 p-3  rounded-md border border-[#205ace] gap-2">
+          <div className="flex-col  transition-all delay-500 ease-linear w-full flex px-5 p-3  rounded-md border border-[#205ace] gap-2">
             <div className="justify-between flex items-center w-full">
               <p className="text-black">
-                Can education flashcards be used for all age groups?
+              How do education flashcards work?
               </p>
               <button
                 type="btton"
@@ -53,7 +53,7 @@ const FAQ = () => {
                     setsecond(true);
                   }
                 }}
-                className="uil uil-angle-down text-3xl text-[#06286E]  "
+                className={`uil  ${second? "uil-angle-up":"uil-angle-down"} uil-angle-down text-3xl text-[#06286E]`}
               />
             </div>
             <div
@@ -68,10 +68,10 @@ const FAQ = () => {
             </div>
           </div>
 
-          <div className="flex-col w-full flex px-5 p-3  rounded-md border border-[#205ace] gap-2">
+          <div className="flex-col  transition-all delay-500 ease-linear w-full flex px-5 p-3  rounded-md border border-[#205ace] gap-2">
             <div className="justify-between flex items-center w-full">
               <p className="text-black">
-                Can education flashcards be used for all age groups?
+              Can education flashcards be used for test preparation?
               </p>
               <button
                 type="btton"
@@ -82,7 +82,7 @@ const FAQ = () => {
                     setthird(true);
                   }
                 }}
-                className="uil uil-angle-down text-3xl text-[#06286E]  "
+                className={`uil  ${third? "uil-angle-up":"uil-angle-down"} uil-angle-down text-3xl text-[#06286E]`}
               />
             </div>
             <div
