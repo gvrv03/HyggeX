@@ -32,8 +32,12 @@ const MainPage = () => {
                 background:
                   "linear-gradient(222.94deg, #051A91 -4.31%, #061C93 14.41%, #2284F1 81.88%, #1F80EB 103.81%)",
               }}
-              className="w-[712px]  cursor-pointer  flex text-white font-semibold text-[38.26px]   h-[393.19px] rounded-3xl justify-center items-center "
+              className="w-[712px]  relative cursor-pointer  flex text-white font-semibold text-[38.26px]   h-[393.19px] rounded-3xl justify-center items-center "
             >
+              <div className="absolute top-1 flex justify-between w-full px-10 py-5 ">
+                <button type="button" className="uil uil-volume" />
+                <button type="button" className="uil uil-lightbulb-alt" />
+              </div>
               9 + 6 + 7x - 2x - 3
             </div>
 
@@ -46,8 +50,12 @@ const MainPage = () => {
                 background:
                   "linear-gradient(222.94deg, #071844 -4.31%, #071844 -0.03%, #2D87B6 84.9%, #2D87B6 103.81%)",
               }}
-              className="w-[712px]  cursor-pointer  flex text-white font-semibold text-[38.26px]   h-[393.19px] rounded-3xl justify-center items-center "
+              className="w-[712px]  relative cursor-pointer  flex text-white font-semibold text-[38.26px]   h-[393.19px] rounded-3xl justify-center items-center "
             >
+               <div className="absolute top-1 flex justify-between w-full px-10 py-5 ">
+                <button type="button" className="uil uil-volume" />
+                <button type="button" className="uil uil-lightbulb-alt" />
+              </div>
               5x + 12
             </div>
           </ReactCardFlip>
