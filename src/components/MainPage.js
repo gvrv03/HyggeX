@@ -58,7 +58,7 @@ const MainPage = () => {
             </button>{" "}
             <div className="flex gap-10 items-center ">
               <button className="uil text-4xl text-white bg-gradient-to-t from-[#06286E] to-[#164EC0]  h-[60px] w-[60px] rounded-full  uil-angle-left-b" />
-              <div className="text-[24px] font-semibold ">01/10</div>
+              <div className="text-[24px] font-semibold ">01/5</div>
               <button className="uil text-4xl text-white bg-gradient-to-t from-[#06286E] to-[#164EC0]  h-[60px] w-[60px] rounded-full  uil-angle-right-b" />
             </div>
             <button>
