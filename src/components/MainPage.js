@@ -35,8 +35,8 @@ const MainPage = () => {
               className="w-[712px]  relative cursor-pointer  flex text-white font-semibold text-[38.26px]   h-[393.19px] rounded-3xl justify-center items-center "
             >
               <div className="absolute top-1 flex justify-between w-full px-10 py-5 ">
-                <button type="button" className="uil uil-volume" />
                 <button type="button" className="uil uil-lightbulb-alt" />
+                <button type="button" className="uil uil-volume" />
               </div>
               9 + 6 + 7x - 2x - 3
             </div>
@@ -53,8 +53,8 @@ const MainPage = () => {
               className="w-[712px]  relative cursor-pointer  flex text-white font-semibold text-[38.26px]   h-[393.19px] rounded-3xl justify-center items-center "
             >
                <div className="absolute top-1 flex justify-between w-full px-10 py-5 ">
-                <button type="button" className="uil uil-volume" />
                 <button type="button" className="uil uil-lightbulb-alt" />
+                <button type="button" className="uil uil-volume" />
               </div>
               5x + 12
             </div>
